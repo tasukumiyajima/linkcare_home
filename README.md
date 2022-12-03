@@ -1,38 +1,8 @@
-# Linkcare Home Page
+# Link Care Home Page
 
-Home page of Link Care
+Home page of Link Care Inc
 
-### Setup for the first time
+This is not a public application. It is just for internal usage.
 
-sudo gem install -n /usr/local/bin jekyll webrick bundler --no-document
-alias jk='jekyll'
-
-### Create the project
-
-# to project mother folder
-cd 
-
-git clone https://github.com/gambaldia/linkcare_home.git
-
-PROJ='linkcare_home'
-jekyll new $PROJ --force
-cd $PROJ
-vi Gemfile
-gem 'webrick'
-gem "jekyll-agency"
-
-mkdir _data
-mkdir _includes
-mkdir _layouts
-mkdir _sass
-mkdir assets
-mkdir assets/images
-mkdir assets/pdf
-
-### Install from GitHub
-
-PROJ='linkcare_home'
-git clone https://github.com/gambaldia/linkcare_home.git
-
-
-
+Link Care Inc is a Japanese company in dental care industry.
+I makes matching and collaboration among Dental clinics, Dentists, Dental hygienist, and Dental equipment manufacturers.

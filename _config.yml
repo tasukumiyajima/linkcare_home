@@ -18,18 +18,18 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Link Care
+title: Link Care (Gate2)
 email: your-email@linkcare-dh.jp
-description: >- # this means to ignore newlines until "baseurl:"
-  歯科衛生士を練習する 輝くアナタをお手伝い LINK CARE(リンクケア)
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "linkcare@tte.be" # the base hostname & protocol for your site, e.g. http://example.com
+description: 歯科衛生士を練習する 輝くアナタをお手伝い LINK CARE(リンクケア)
+baseurl: "/home" # the subpath of your site, e.g. /blog
+url: "http://linkcare.tte.be" # the base hostname & protocol for your site, e.g. http://example.com
+#project_name: Gate2
 twitter_username: jekyllrb
 github_username:  jekyll
 
 logo:
-  path: assets/images/top/image002.png
-  height: 50
+  path: assets/images/logo-linkcare.png
+  height: 60
 
 analytics:
   google: G-?????????
@@ -39,7 +39,7 @@ markdown: kramdown
 # Build settings
 theme: jekyll-agency
 
-locale: "en-US" # See available languages in _data/sitetext.yml
+locale: "ja" # See available languages in _data/sitetext.yml
 
 plugins:
   - jekyll-feed
