@@ -11,20 +11,22 @@
 # -------
 ja: &DEFAULT_JA
   nav:
-    - title: "Services"
+    - title: "各種サービス"
       section: services
     - title: "歯科衛生士の方へ"
       section: portfolio
-    - title: "About"
+    - title: "LINK CAREについて"
       section: about
     - title: "Timeline"
       section: timeline
-    - title: "Team"
+    - title: "スタッフ"
       section: team
-    - title: "Contact"
+    - title: "問い合わせ"
       section: contact
-    - title: "Theme Source"
-      url: https://github.com/raviriley/agency-jekyll-theme/
+    - title: "Gate1"
+      url: https://linkcare-dh.jp
+    - title: "Cavok3"
+      url: /office/
 ja-JA:
   <<: *DEFAULT_JA
 

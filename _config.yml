@@ -23,9 +23,10 @@ email: your-email@linkcare-dh.jp
 description: 歯科衛生士を練習する 輝くアナタをお手伝い LINK CARE(リンクケア)
 baseurl: "/home" # the subpath of your site, e.g. /blog
 url: "http://linkcare.tte.be" # the base hostname & protocol for your site, e.g. http://example.com
-#project_name: Gate2
-twitter_username: jekyllrb
-github_username:  jekyll
+project_name: Gate2
+
+# twitter_username: jekyllrb
+# github_username:  jekyll
 
 logo:
   path: assets/images/logo-linkcare.png
@@ -38,7 +39,6 @@ markdown: kramdown
 
 # Build settings
 theme: jekyll-agency
-
 locale: "ja" # See available languages in _data/sitetext.yml
 
 plugins:

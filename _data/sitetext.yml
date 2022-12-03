@@ -71,9 +71,14 @@ ja: &DEFAULT_JA
     end: "Be Part <br> of Our <br> Story!"
 
   about:
-    title: "About Us"
-    text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    title: "リンクケアについて"
+    text: "歯科衛生士の地位向上と安定した就業に貢献します"
+    body: >-
+      日々業務に追われ、焦りはあっても何をしたらいいのか分からない。
+      どう勉強したらいいのか分からない。先輩はすごいなって思う。
+      才能の差は小さいが、努力の差は大きい。。。
+
+      私達はこの様な事を日々悩んでおられる方々を、歯科衛生士の経験と教員の実績をもつスタッフが一丸となり、技術・セミナー提供を専門家の立場からサポート致します。
     section: about
 
   clients:
@@ -147,7 +152,7 @@ ja: &DEFAULT_JA
     submit: "Send Message"
 
   footer:
-    legal: "Privacy Policy"
+    legal: "プライバシーポリシー"
     social:
       - url: https://twitter.com
         icon: "fab fa-twitter"

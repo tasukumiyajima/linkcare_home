@@ -4,7 +4,8 @@
 ### Setup for the first time
 
 sudo gem install -n /usr/local/bin jekyll webrick bundler --no-document
-alias jk='jekyll'
+alias jk='jekyll serve --trace' # at development workstation
+alias jk='jekyll build' # at deploy server
 
 ### Create the project
 
