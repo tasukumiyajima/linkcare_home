@@ -12,7 +12,7 @@ ja: &DEFAULT_JA
   header:
     title: Welcome to
     text: 歯科衛生士の教育クリニック
-    button: 各種サービス
+    button: 各種サービスはこちら
     buttonlink: "#services"
 
   services:
@@ -171,7 +171,7 @@ ja-Ja:
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to 
+    title: Welcome to
     text: It's Nice To Meet You
     button: Tell Me More
     buttonlink: "#services"
